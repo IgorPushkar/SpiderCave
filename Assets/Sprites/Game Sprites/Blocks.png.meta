@@ -1,11 +1,11 @@
 fileFormatVersion: 2
 guid: 0a3e908896d41334693073a95cadbf84
-timeCreated: 1455384291
+timeCreated: 1456265320
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Blocks_0
-    21300002: Blocks_1
+    21300000: Ground_0
+    21300002: Ground_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,7 +52,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Blocks_0
+    - name: Ground_0
       rect:
         serializedVersion: 2
         x: 3
@@ -67,7 +67,7 @@ TextureImporter:
         - {x: -512, y: -128}
         - {x: 512, y: -128}
         - {x: 512, y: 128}
-    - name: Blocks_1
+    - name: Ground_1
       rect:
         serializedVersion: 2
         x: 1

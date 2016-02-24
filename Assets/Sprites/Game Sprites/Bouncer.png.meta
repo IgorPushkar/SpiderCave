@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6de084ff2d9d6914eb5f9b0f666337bf
-timeCreated: 1456257527
+timeCreated: 1456350630
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -60,14 +60,14 @@ TextureImporter:
         y: 0
         width: 145
         height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -72.5, y: 25}
-        - {x: -72.5, y: -25}
-        - {x: 72.5, y: -25}
-        - {x: 72.5, y: 25}
+      - - {x: -72.5, y: 50}
+        - {x: -72.5, y: 0}
+        - {x: 72.5, y: 0}
+        - {x: 72.5, y: 50}
     - name: Bouncer_1
       rect:
         serializedVersion: 2
@@ -75,10 +75,22 @@ TextureImporter:
         y: 0
         width: 145
         height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -72.5, y: 25}
+        - {x: -72.5, y: -25}
+        - {x: 72.5, y: -25}
+        - {x: 72.5, y: 25}
+        - {x: -72.5, y: 25}
+        - {x: -72.5, y: -25}
+        - {x: 72.5, y: -25}
+        - {x: 72.5, y: 25}
+      - - {x: -72.5, y: 25}
+        - {x: -72.5, y: -25}
+        - {x: 72.5, y: -25}
+        - {x: 72.5, y: 25}
     - name: Bouncer_2
       rect:
         serializedVersion: 2
@@ -86,10 +98,34 @@ TextureImporter:
         y: 0
         width: 145
         height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -72.5, y: 25}
+        - {x: -72.5, y: -25}
+        - {x: 72.5, y: -25}
+        - {x: 72.5, y: 25}
+        - {x: -72.5, y: 25}
+        - {x: -72.5, y: -25}
+        - {x: 72.5, y: -25}
+        - {x: 72.5, y: 25}
+        - {x: -72.5, y: 25}
+        - {x: -72.5, y: -25}
+        - {x: 72.5, y: -25}
+        - {x: 72.5, y: 25}
+      - - {x: -72.5, y: 25}
+        - {x: -72.5, y: -25}
+        - {x: 72.5, y: -25}
+        - {x: 72.5, y: 25}
+        - {x: -72.5, y: 25}
+        - {x: -72.5, y: -25}
+        - {x: 72.5, y: -25}
+        - {x: 72.5, y: 25}
+      - - {x: -72.5, y: 25}
+        - {x: -72.5, y: -25}
+        - {x: 72.5, y: -25}
+        - {x: 72.5, y: 25}
     outline: []
   spritePackingTag: 
   userData: 

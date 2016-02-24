@@ -71,6 +71,7 @@ public class Player : MonoBehaviour {
 			if(isGrounded){
 				isGrounded = false;
 				forceY = jumpForce;
+				anim.SetBool ("Jump", true);
 			}
 		}
 
@@ -80,6 +81,17 @@ public class Player : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D collision){
 		if(collision.gameObject.tag == "Ground"){
 			isGrounded = true;
+			anim.SetBool ("Jump", false);
 		}
+	}
+
+	public bool BouncePlayer(float force){
+		if(isGrounded){
+			isGrounded = false;
+			body.AddForce (new Vector2 (0, force));
+			return true;
+		}
+
+		return false;
 	}
 }
